@@ -37,5 +37,4 @@ print("-"*30)
 Mobin_dan=req.get("https://phonenumbervalidation.apifex.com/api/v1/validate?phonenumber=%2B"+num2+"%20"+number).text
 print(Fore.RED+Mobin_dan)
 print("-"*30)
-except:
-        print("NOT FIND:(")
+
